@@ -1,0 +1,173 @@
+/*  -- 外边距 -- */
+/* 
+说明:
+个位数数字
+0:0
+xs:10px
+sm:20uxp
+:30px
+lg:40px
+xl:50px
+ */
+ 
+ /* 上下左右 */
+ .margin-0 {
+	margin: 0;
+}
+
+.margin-xs {
+	margin: 10px;
+}
+
+.margin-sm {
+	margin: 20px;
+}
+
+.margin {
+	margin: 30px;
+}
+
+.margin-lg {
+	margin: 40px;
+}
+
+.margin-xl {
+	margin: 50px;
+}
+
+/* 顶部 */
+.margin-top-xs {
+	margin-top: 10px;
+}
+
+.margin-top-sm {
+	margin-top: 20px;
+}
+
+.margin-top {
+	margin-top: 30px;
+}
+
+.margin-top-lg {
+	margin-top: 40px;
+}
+
+.margin-top-xl {
+	margin-top: 50px;
+}
+/* 右边 */
+.margin-right-xs {
+	margin-right: 10px;
+}
+
+.margin-right-sm {
+	margin-right: 20px;
+}
+
+.margin-right {
+	margin-right: 30px;
+}
+
+.margin-right-lg {
+	margin-right: 40px;
+}
+
+.margin-right-xl {
+	margin-right: 50px;
+}
+
+/* 底部 */
+.margin-bottom-xs {
+	margin-bottom: 10px;
+}
+
+.margin-bottom-sm {
+	margin-bottom: 20px;
+}
+
+.margin-bottom {
+	margin-bottom: 30px;
+}
+
+.margin-bottom-lg {
+	margin-bottom: 40px;
+}
+
+.margin-bottom-xl {
+	margin-bottom: 50px;
+}
+
+/* 左边 */
+.margin-left-xs {
+	margin-left: 10px;
+}
+
+.margin-left-sm {
+	margin-left: 20px;
+}
+
+.margin-left {
+	margin-left: 30px;
+}
+
+.margin-left-lg {
+	margin-left: 40px;
+}
+
+.margin-left-xl {
+	margin-left: 50px;
+}
+/* 左右 */
+.magin-lr-4{
+	margin: 0 4px;
+}
+.margin-lr-xs {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.margin-lr-sm {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.margin-lr {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.margin-lr-lg {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.margin-lr-xl {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+/* 上下 */
+.margin-tb-xs {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.margin-tb-sm {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.margin-tb {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.margin-tb-lg {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.margin-tb-xl {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+

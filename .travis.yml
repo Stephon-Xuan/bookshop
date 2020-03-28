@@ -1,0 +1,18 @@
+language: node_js # node环境
+node_js:
+  - "lts/*"
+install:
+  - npm install
+script:
+  - npm run build # 执行命令
+deploy:
+  provider: pages
+  skip-cleanup: true
+  local_dir: ./dist # 部署的文件夹文件
+  github-token: $GH_TOKEN # travis服务上的token变量
+  target-branch: master # 集成发布到master（原先是gh-pages）上
+  keep-history: true
+  on:
+    branch: source
+
+    

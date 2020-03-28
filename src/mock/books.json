@@ -1,0 +1,12 @@
+{
+"books":[
+    {
+      "_id": "0",
+      "name": "iPhone",
+      "description": "iPhone是美国苹果公司研发的智能手机系列，搭载苹果公司研发的iOS操作系统",
+      "image": "https://s.cn.bing.net/th?q=%e5%8d%8e%e4%b8%ba%e8%8d%a3%e8%80%80&w=75&h=75&pid=MSNJVFeeds&mkt=zh-CN&adlt=moderate",
+      "price": 2000,
+      "Shop": "YI"
+    }
+  ]
+}
