@@ -21,9 +21,6 @@ export default {
       Sort,
       Last
   },
-   created() {
-    this.$store.dispatch("usedBooksModule/reqUsedBooks");
-  },
   computed: {
     ...mapState({
       usedBooks: state => state.usedBooksModule.usedBooks

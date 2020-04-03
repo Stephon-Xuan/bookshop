@@ -1,7 +1,7 @@
 // 初始化state
 const state = {
   // selected book
-  book: {},
+  // book: {},
   cart: []
 }
 

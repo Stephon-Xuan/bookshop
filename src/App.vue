@@ -47,7 +47,11 @@ export default {
     return {
       input: ""
     };
-  }
+  },
+  // 旧书商城，放着这里面全局加载数据
+ created() {
+    this.$store.dispatch("usedBooksModule/reqUsedBooks");
+  },
 };
 </script>
 

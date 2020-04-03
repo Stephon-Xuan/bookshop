@@ -29,6 +29,11 @@ const actions = {
 const mutations = {
   addUsedBooks (state, payload) {
     state.usedBooks = payload
+  },
+  // 单本
+  addUsedBook (state, payload) {
+    const usedBook = payload
+    state.usedBooks.push(usedBook)
   }
 }
 
