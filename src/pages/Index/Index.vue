@@ -57,7 +57,7 @@
 <script>
 
 import Sort from "@/components/Sort/Sort.vue";
-import Popular from "@/components/Popolar/Popular.vue";
+import Popular from "@/components/Popular/Popular";
 import Last from "@/components/Last/Last.vue";
 import Carousel from "./Carousel/Carousel";
 import { mapState,mapGetters } from "vuex";
