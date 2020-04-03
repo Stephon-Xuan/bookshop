@@ -1,0 +1,54 @@
+{
+  "carousel": [
+    {
+    "_id": "10000",
+    "name": "贫穷的本质",
+    "description": "贫穷的本质：我们为什么摆脱不了贫穷,探究穷人为什么无法摆脱贫穷的颠覆之作",
+    "image": "https://img11.360buyimg.com/n1/s200x200_jfs/t26623/338/419718625/245064/7ef5b21b/5b9106caNc9b79061.jpg",
+    "price": 34.80,
+    "author": "阿比吉特·巴纳吉"
+  },
+  {
+    "_id": "10001",
+    "name": "流量营销",
+    "description": "流量营销",
+    "image": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2754428046,2349790438&fm=15&gp=0.jpg",
+    "price": 39.80,
+    "author": "骏君"
+  },
+  {
+    "_id": "10002",
+    "name": "销售就是要情商高",
+    "description": "一本靠情商致胜的销售奇书想成为销售高手，提高你的销售情商就够了",
+    "image": "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=4178874673,2129286990&fm=15&gp=0.jpg",
+    "price": 21.40,
+    "author": "郭彬"
+  },
+  {
+    "_id": "10003",
+    "name": "微商从入门到精通",
+    "description": "微商从入门到精通微商运营全攻略我是微商微商创业者手册微商书吸粉教程广告营销市场营销微信营销",
+    "image": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3678660447,2484452147&fm=15&gp=0.jpg",
+    "price": 14.80,
+    "author": "满江树"
+  },
+  {
+    "_id": "10004",
+    "name": "阿里巴巴实战运营",
+    "description": "14招玩转诚信通",
+    "image": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2745549471,1787401746&fm=26&gp=0.jpg",
+    "price": 52.10,
+    "author": "聂志新"
+  },
+  {
+    "_id": "10005",
+    "name": "爆款文案",
+    "description": "前奥美金牌广告人力作",
+    "image": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3468305458,468279752&fm=15&gp=0.jpg",
+    "price": 29.65,
+    "author": "关健明 "
+  }
+  
+]
+}
+

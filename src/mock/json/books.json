@@ -1,0 +1,12 @@
+{
+"books":[
+    {
+      "_id": "1000",
+      "name": "Node.js实战（第2版）",
+      "description": "iPhone是美国苹果公司研发的智能手机系列，搭载苹果公司研发的iOS操作系统",
+      "image": "https://file.ituring.com.cn/SmallCover/180772f25c1b4cee65ec",
+      "price": 70,
+      "author": "[英] 亚历克斯•杨 等 (作者) 吴海星 (译者)"
+    }
+  ]
+}

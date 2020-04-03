@@ -1,0 +1,169 @@
+/* 外边距 */
+/* 
+说明:
+0:0
+xs:5px
+sm:10px
+:15px
+lg:20px
+xl:25px
+ */
+
+ .padding-0 {
+	padding: 0;
+}
+
+.padding-xs {
+	padding: 5px;
+}
+
+.padding-sm {
+	padding: 10px;
+}
+
+.padding {
+	padding: 15px;
+}
+
+.padding-lg {
+	padding: 20px;
+}
+
+.padding-xl {
+	padding: 25px;
+}
+
+.padding-top-xs {
+	padding-top: 5px;
+}
+
+.padding-top-sm {
+	padding-top: 10px;
+}
+
+.padding-top {
+	padding-top: 15px;
+}
+
+.padding-top-lg {
+	padding-top: 20px;
+}
+
+.padding-top-xl {
+	padding-top: 25px;
+}
+
+.padding-right-xs {
+	padding-right: 5px;
+}
+
+.padding-right-sm {
+	padding-right: 10px;
+}
+
+.padding-right {
+	padding-right: 15px;
+}
+
+.padding-right-lg {
+	padding-right: 20px;
+}
+
+.padding-right-xl {
+	padding-right: 25px;
+}
+
+.padding-bottom-xs {
+	padding-bottom: 5px;
+}
+
+.padding-bottom-sm {
+	padding-bottom: 10px;
+}
+
+.padding-bottom {
+	padding-bottom: 15px;
+}
+
+.padding-bottom-lg {
+	padding-bottom: 20px;
+}
+
+.padding-bottom-xl {
+	padding-bottom: 25px;
+}
+
+.padding-left-xs {
+	padding-left: 5px;
+}
+
+.padding-left-sm {
+	padding-left: 10px;
+}
+
+.padding-left {
+	padding-left: 15px;
+}
+
+.padding-left-lg {
+	padding-left: 20px;
+}
+
+.padding-left-xl {
+	padding-left: 25px;
+}
+
+
+/* 左右 */
+.padding-lr-4 {
+	padding: 0 4px;
+}
+.padding-lr-xs {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.padding-lr-sm {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.padding-lr {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.padding-lr-lg {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.padding-lr-xl {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.padding-tb-xs {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.padding-tb-sm {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.padding-tb {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.padding-tb-lg {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.padding-tb-xl {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}

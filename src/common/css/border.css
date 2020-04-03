@@ -1,0 +1,29 @@
+
+/* 边界顶部 */
+.border-top-small{
+	border-top: 2px solid #F6F6F6 ;
+}
+
+
+/* 边界底部 */
+.border-bm-big-shadow{
+	box-shadow: 0 10px 5px 0px #f1f1f1;
+	margin-bottom: 5px;
+}
+.border-bm-big{
+	border-bottom: 16px solid #F6F6F6 ;
+}
+.border-bm-small{
+	border-bottom: 2px solid #F6F6F6 ;
+}
+.border-tb-small{
+	border-top: 2px solid #F6F6F6 ;
+	border-bottom: 2px solid #F6F6F6 ;
+}
+
+/* 样式 */
+.border-active{
+	height: 2px;
+	width: 100%;
+	border-bottom: #30e3ca solid 2px;
+}
