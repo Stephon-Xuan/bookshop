@@ -29,7 +29,7 @@
           <p class="margin-sm text-price text-yellow">{{book.price}}</p>
           <book-button :book="book"></book-button>
           <div class="margin-sm">
-            <bookBuy></bookBuy>
+            <bookBuy :book="book"></bookBuy>
           </div>
         </div>
       </div>

@@ -11,7 +11,8 @@ export default {
   computed: {
     book() {
       // return this.$store.state.booksModule.books[this.$route.params['id']];
-      return this.$route.query.book
+      // return this.$route.query.book
+      return JSON.parse(window.localStorage.book)
     }
   },
   //  props: ["book"],

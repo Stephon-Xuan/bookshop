@@ -8,18 +8,21 @@
         <Sort></Sort>
     </div> -->
     <Last :books="usedBooks"></Last>
+    <Ratings></Ratings>
   </div>
 </template>
 
 <script>
 import Sort from "@/components/Sort/Sort";
 import Last from "@/components/Last/Last.vue";
+import Ratings from "@/components/Ratings/Ratings"
 import { mapState,mapGetters } from "vuex";
 export default {
    
   components:{
       Sort,
-      Last
+      Last,
+      Ratings
   },
   computed: {
     ...mapState({

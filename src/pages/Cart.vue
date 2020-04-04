@@ -1,10 +1,10 @@
 <template>
-  <div class="" style="background-color:white;">
+  <div>
     <el-breadcrumb separator-class="el-icon-arrow-right" class="text-xs text-lg text-lg padding">
       <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
       <el-breadcrumb-item>购物车</el-breadcrumb-item>
     </el-breadcrumb>
-    <el-row :gutter="10">
+    <div v-if="cart.length!=0">
       <template v-for="book in cart">
         <div class="margin-sm">
           <!-- <el-tag
@@ -17,7 +17,15 @@
           </el-col>
         </div>
       </template>
-    </el-row>
+    </div>
+    <div v-else class="margin-sm padding-lr-lg">
+      <div class="flex-cc">
+        <img
+          src="https://cdn.jsdelivr.net/gh/Stephon-Xuan/images/imgs/Myproject/书斋网页端/images/none.png"
+        />
+        <div class="text-cyan text-lg">购物车空空如也！</div>
+      </div>
+    </div>
   </div>
 </template>
 

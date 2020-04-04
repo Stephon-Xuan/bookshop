@@ -25,14 +25,57 @@
           "image": "https://img11.360buyimg.com/n1/s200x200_jfs/t1/80024/25/13916/269599/5db6568cE097e42be/1dbcfb491f70b963.jpg",
           "price": 37.80,
           "author": "[英] 毛姆 著，作家榜经典 编，徐淳刚 译"
+        },
+        {
+          "_id": "3",
+          "name": "汤姆索亚历险记 ",
+          "description": "正版｜汤姆索亚历险记 中文版 马克·吐温著 全译本汤姆索亚历险记正版初中生小学生六年级必读课外书青少版读物名著小说阅读书籍",
+          "image": "https://gaitaobao3.alicdn.com/tfscom/i1/2509968711/O1CN01wXaytI2EDggFk8iSw_!!0-item_pic.jpg_240x240xz.jpg_.webp",
+          "price": 35.00,
+          "author": "马克·吐温"
+        },
+        {
+          "_id": "4",
+          "name": "红雀",
+          "description": "现货《红雀》贾森 马修斯张荣建悬疑小说谍战小说爱好者电影美国中央情报局绝密档案真实性和揭露的细节",
+          "image": "http://image12.bookschina.com/2015/20150409/6934060.jpg",
+          "price": 46.00,
+          "author": "贾森"
+        },
+        {
+          "_id": "5",
+          "name": "奇迹病房",
+          "description": "活着是世界上最罕见的事，大多数人只是存在，仅此而已。",
+          "image": "https://images-cn.ssl-images-amazon.com/images/I/51shXrZXJ1L.jpg",
+          "price": 46.00,
+          "author": "贾森"
+        },
+        {
+          "_id": "6",
+          "name": "雾行者",
+          "description": "路内超越所有期待全新长篇 余华、戴锦华、唐诺、许知远、梁文道、刘瑞琳 推荐阅读 理想国出品",
+          "image": "https://images-cn.ssl-images-amazon.com/images/I/41v-eiJYdiL.jpg",
+          "price": 61.10,
+          "author": "路内"
+        },
+        {
+          "_id": "7",
+          "name": "小孩",
+          "description": "现象级畅销书作家大冰2019年全新作品。于无常处知有情， 于有情处知众生。",
+          "image": "https://images-cn.ssl-images-amazon.com/images/I/41tLJmP07zL.jpg",
+          "price": 11.99,
+          "author": "大冰"
         }
+      
+      
+      
       ]
     } ,
     {
       "sortName": "动漫",
       "sortBooks": [
           {
-          "_id": "0",
+          "_id": "100",
           "name": "父与子全集",
           "description": "郑渊洁推荐版《父与子》！荣获2018京东动漫榜桂冠！修复原版漫画1115幅，开创10万+读者五星好评推荐！认准作家榜，拒绝山寨版！限时特惠疯抢！大星文化出品",
           "image": "https://img14.360buyimg.com/n1/s200x200_jfs/t1/110391/10/1986/325974/5e02f6c3E055d21da/43fb85447b680cc7.jpg",
@@ -41,7 +84,7 @@
           "author": "[德] 埃·奥·卜劳恩 著，作家榜经典 编，梁昌正 绘"
         },
         {
-          "_id": "1",
+          "_id": "101",
           "name": "罗小黑战记",
           "description": "划时代的国民级动画！亡命天涯，卖萌为生，中国独立动画制作人MTJJ诚意出品！京东众筹近三十万，动画视频点击过亿！",
           "image": "https://img11.360buyimg.com/n1/s200x200_jfs/t1390/240/799245533/404425/da11c219/55ac8d51Nff2b7118.jpg",
@@ -54,7 +97,7 @@
       "sortName": "计算机",
       "sortBooks": [
         {
-          "_id": "1",
+          "_id": "200",
           "name": "JavaScript高级程序设计（第3版）",
           "description": "本书是JavaScript超级畅销书的新版。ECMAScript 5 和HTML5在标准之争中双双胜出，使大量专有实现和客户端扩展正式进入规范，同时也为JavaScript增添了很多适应未来发展的新特性。本书这一版除增加5 章全新内容外，其他章节也有较大幅度的增补和修订，新内容篇幅约占三分之一。全书从JavaScript语言实现的各个组成部分——语言核心、DOM、BOM、事件模型讲起，深入浅出地探讨了面向对象编程、Ajax 与Comet服务器端通信，HTML5表单、媒体、Canvas（包括WebGL）及Web Workers、地理定位、跨文档传递消息、客户端存储（包括IndexedDB）等新API，还介绍了离线应用和与维护、性能、部署相关的最佳开发实践。本书附录展望了未来的API和ECMAScript Harmony规范。本书适合有一定编程经验的Web应用开发人员阅读，也可作为高校及社会实用技术培训相关专业课程的教材。",
           "image": "https://file.ituring.com.cn/ScreenShow/010116cbe80f8b13a020",
@@ -62,12 +105,20 @@
           "author": "Nicholas C.Zakas (作者) 李松峰 , 曹力 (译者)"
         },
         {
-          "_id": "2",
+          "_id": "201",
           "name": "程序员面试金典（第6版）",
           "description": "本书是原谷歌资深面试官的经验之作，层层紧扣程序员面试的每一个环节，全面而详尽地介绍了程序员应当如何应对面试，才能在面试中脱颖而出。内容主要涉及面试流程解析，面试官的幕后决策及可能提出的问题，面试前的准备工作，对面试结果的处理，以及出自微软、苹果、谷歌等多家知名公司的189道编程面试题及详细解决方案。第6版修订了上一版中一些题目的解法，为各章新增了介绍性内容，加入了更多的算法策略，并增添了对所有题目的提示信息。",
           "image": "https://file.ituring.com.cn/SmallCover/1908e103b8b667657592",
           "price": 200,
           "author": "盖尔 • 拉克曼 • 麦克道尔（Gayle Laakmann McDowell） (作者) 刘博楠，赵鹏飞，李琳骁，漆犇 (译者)"
+        },
+        {
+          "_id": "202",
+          "name": "Node.js实战（第2版）",
+          "description": "本书是Node.js的实战教程，涵盖了为开发产品级Node应用程序所需要的一切特性、技巧以及相关理念。 从搭建Node开发环境，到一些简单的演示程序，到开发复杂应用程序所必不可少的异步编程。第2版介绍了全栈开发者所需的全部技术，包括前端构建系统、选择Web框架、在Node中与数据库的交互、编写测试和部署Web程序，等等。",
+          "image": "https://file.ituring.com.cn/SmallCover/180772f25c1b4cee65ec",
+          "price": 70.00,
+          "author": "[英] 亚历克斯•杨 等 (作者) 吴海星 (译者)"
         }
       ]
     }
