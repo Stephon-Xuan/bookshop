@@ -43,11 +43,12 @@
       </el-col>
     </div>
     <div>
-      <Sort></Sort>
-    </div>
-    <div>
       <Popular :books="books"></Popular>
     </div>
+    <div>
+      <Sort></Sort>
+    </div>
+    
     <div>
       <Last :books="books"></Last>
     </div>
