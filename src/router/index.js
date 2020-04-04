@@ -40,7 +40,13 @@ export default new Router({
     {
       // path: '/detail/:id',
       path: '/detail',
-      component: Detail
+      component: Detail,
+      children: [
+        {
+          path: '/order',
+          component: Order
+        }
+      ]
     },
     {
       path: '/donate',
