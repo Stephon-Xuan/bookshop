@@ -1,6 +1,12 @@
 <template>
   <div>
+    <el-breadcrumb separator-class="el-icon-arrow-right" class="text-xs text-lg text-lg padding">
+      <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
+      <el-breadcrumb-item>发布书籍</el-breadcrumb-item>
+    </el-breadcrumb>
+    <el-card class="margin-lr-lg">
     <BookForm @save-book="addBook" :book="book"></BookForm>
+    </el-card>
   </div>
 </template>
   

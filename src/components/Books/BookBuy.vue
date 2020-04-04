@@ -2,7 +2,7 @@
   <div>
     
     <el-button v-if="isCancel" type="warning" size="small" autofocus @click="removeFromOrder(book._id)">取消订单</el-button>
-    <router-link :to="'/order'" v-else>
+    <router-link :to="{path:'/order'}" v-else>
     <el-button   type="danger" size="small" @click="addToOrder">购买</el-button>
     </router-link>
   </div>

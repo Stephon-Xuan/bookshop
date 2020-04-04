@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Index from '@/pages/Index/Index'
 // import Admin from '@/pages/Admin'
-import Cart from '@/pages/Cart'
+import Cart from '@/pages/Cart/Cart'
 import Detail from '@/pages/Detail'
 import Order from '@/pages/Order/Order'
 import Issue from '@/pages/Issue/Issue'
@@ -40,13 +40,7 @@ export default new Router({
     {
       // path: '/detail/:id',
       path: '/detail',
-      component: Detail,
-      children: [
-        {
-          path: '/order',
-          component: Order
-        }
-      ]
+      component: Detail
     },
     {
       path: '/donate',

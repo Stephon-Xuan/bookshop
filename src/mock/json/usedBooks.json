@@ -1,10 +1,28 @@
 {
-  "usedBooks": [{
+  "usedBooks": [
+    {
     "_id": "3000",
-    "name": "Node.js实战（第2版）",
-    "description": "iPhone是美国苹果公司研发的智能手机系列，搭载苹果公司研发的iOS操作系统",
-    "image": "https://file.ituring.com.cn/SmallCover/180772f25c1b4cee65ec",
-    "price": 70,
-    "author": "[英] 亚历克斯•杨 等 (作者) 吴海星 (译者)"
-  }]
+    "name": "Linux shell脚本编程入门",
+    "description": "本章涵盖了Shell脚本的基本知识：Linux和Shell相关基础指令、Linux目录结构、I/O重定向、管道、许可、作业控制（Job Control）、系统管理员指令等。",
+    "image": "https://file.ituring.com.cn/SmallCover/01000ca1282e858e8e7a",
+    "price": 70.31 ,
+    "author": "金泰龙 (作者) 金香 (译者)"
+  },
+  {
+    "_id": "3001",
+    "name": "算法图解",
+    "description": "本书示例丰富，图文并茂，以简明易懂的方式阐释了算法，旨在帮助程序员在日常项目中更好地利用算法为软件开发助力。前三章介绍算法基础，包括二分查找、大O 表示法、两种基本的数据结构以及递归等。余下的篇幅将主要介绍应用广泛的算法，具体内容包括：面对具体问题时的解决技巧，比如何时采用贪婪算法或动态规划；散列表的应用；图算法；K 最近邻算法。",
+    "image": "https://file.ituring.com.cn/SmallCover/010067de1e19ddef9c15",
+    "price": 38.71 ,
+    "author": "Aditya Bhargava (作者) 袁国忠 (译者)"
+  },
+  {
+    "_id": "3002",
+    "name": "挑战程序设计竞赛2：算法和数据结构",
+    "description": "本书分为准备篇、基础篇和应用篇三大部分，借助在线评测系统Aizu Online Judge以及大量例题，详细讲解了算法与复杂度、初等和高等排序、搜索、递归和分治法、动态规划法、二叉搜索树、堆、图、计算几何学、数论等算法和数据结构的关键知识点，既可以作为挑战程序设计竞赛的参考书，也可以用来引导初学者系统学习算法和数据结构的基础知识。本书适合所有程序设计人员、程序设计竞赛爱好者以及高校计算机专业师生阅读。",
+    "image": "https://file.ituring.com.cn/SmallCover/0100bf54fd5c299f5e02",
+    "price": 62.41  ,
+    "author": "渡部有隆 (作者) 支鹏浩 (译者)"
+  }
+]
 }

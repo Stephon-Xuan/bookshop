@@ -33,7 +33,7 @@
           </el-col>
 
           <el-col :xs="12" :sm="10" :md="12" :lg="12" :xl="12">
-            <router-link :to="'/donate'">
+            <router-link :to="'/404'">
               <el-card class="box-card flex-cc" style="height:300px;" shadow="hover">
                 <el-image style="width: 100%; height:250px;" :src="src[2]" :fit="fits[4]"></el-image>
               </el-card>

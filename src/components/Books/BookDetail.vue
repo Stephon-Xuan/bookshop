@@ -1,9 +1,6 @@
 <template>
   <div style="background-color:white;">
-    <el-breadcrumb separator-class="el-icon-arrow-right" class="text-lg padding">
-      <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
-      <el-breadcrumb-item>书籍详情</el-breadcrumb-item>
-    </el-breadcrumb>
+    
      
     <div>
       <el-row :gutter="8">
@@ -37,8 +34,7 @@
        </el-row>
     </div>
      
-    <el-divider></el-divider>
-    <Ratings></Ratings>
+    
   </div>
 </template>
 
@@ -56,13 +52,13 @@ div.ratings > div {
 <script>
 import BookButton from "./BookButton";
 import BookBuy from "./BookBuy";
-import Ratings from "@/components/Ratings/Ratings"
+
 export default {
   props: ["book"],
   components: {
     "book-button": BookButton,
-    BookBuy,
-    Ratings
+    BookBuy
+   
   },
   data() {
     return {

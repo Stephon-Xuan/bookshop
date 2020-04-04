@@ -6,7 +6,7 @@
     </el-breadcrumb>
 
     <div v-if="orders.length!=0">
-      <template v-for="book in orders.reverse()">
+      <template v-for="book in orders">
         <div class="margin-sm padding-lr-lg">
           <!-- <el-col :xs="12" :sm="6" :md="4" :lg="3" :xl="4"> -->
           <!-- <book-item :book="book" :key="book._id"></book-item> -->
@@ -35,7 +35,7 @@ export default {
   },
   computed: {
     orders() {
-      return this.$store.state.orderModule.orders;
+      return this.$store.state.orderModule.orders.reverse();
     }
   },
   methods: {
