@@ -17,7 +17,13 @@ export default {
   components: {
     "book-list": BookList
   },
-  props: ["books"]
+  props: ["books"],
+  computed: {
+    // newBooks(){
+    //    return this.books.reverse()
+    // }
+    
+  }
 };
 </script>
 

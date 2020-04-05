@@ -68,7 +68,7 @@
               class="form-control"
               />-->
               <div>
-                <img src="https://file.ituring.com.cn/SmallCover/181054529974c29f37d5" />
+                <img src="https://file.ituring.com.cn/SmallCover/19031b1ec8051efc1c67" />
               </div>
             </div>
           </div>

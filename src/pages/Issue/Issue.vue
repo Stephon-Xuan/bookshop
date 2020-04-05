@@ -20,7 +20,7 @@ export default {
         _id: "1000000",
         name: "",
         description:"",
-        image: "https://file.ituring.com.cn/SmallCover/181054529974c29f37d5",
+        image: "https://file.ituring.com.cn/SmallCover/19031b1ec8051efc1c67",
         price: 0,
         author: ""
       }
