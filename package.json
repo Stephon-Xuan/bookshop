@@ -12,7 +12,7 @@
     "deploy":"start deploy.sh"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "element-ui": "^2.13.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
